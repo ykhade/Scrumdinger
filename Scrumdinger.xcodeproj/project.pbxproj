@@ -103,6 +103,7 @@
 				61EB8F8829F2592B003CE0C7 /* Views */,
 				61EB8F8329F24EC3003CE0C7 /* Models */,
 				610B6C41290FE384006FDB9F /* ScrumdingerApp.swift */,
+				61EB8F8929F25950003CE0C7 /* CardView.swift */,
 				610B6C43290FE384006FDB9F /* MeetingView.swift */,
 				610B6C45290FE385006FDB9F /* Assets.xcassets */,
 				610B6C47290FE385006FDB9F /* Preview Content */,
@@ -147,7 +148,6 @@
 		61EB8F8829F2592B003CE0C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				61EB8F8929F25950003CE0C7 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-    
+
 struct DetailView: View {
-    let scrum: DailyScrum
-    
+    @Binding var scrum: DailyScrum
+
     @State private var editingScrum = DailyScrum.emptyScrum
     @State private var isPresentingEditView = false
-
+    
     var body: some View {
         List {
             Section(header: Text("Meeting Info")) {
@@ -21,7 +21,7 @@ struct DetailView: View {
                         .font(.headline)
                         .foregroundColor(.accentColor)
                 }
-                    HStack {
+                HStack {
                     Label("Length", systemImage: "clock")
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
